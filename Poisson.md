@@ -32,3 +32,20 @@
 
 - n을 무한대로 극한을 취하면 아래와 같음
 
+![image](https://user-images.githubusercontent.com/80622859/230542483-f53a503e-bc2d-4dc7-a73a-2ee554fd9a0e.png)
+
+![image](https://user-images.githubusercontent.com/80622859/230542128-b15ca9cd-b713-443a-b82e-04422e5edf19.png)
+
+![image](https://user-images.githubusercontent.com/80622859/230542506-970f0a59-41dc-419d-a524-2b119a1faed1.png)
+
+- 수 많은 사건 중(n이 무한대일 때) 특정한 사건이 발생활 확률이 매우 적은 확률 변수가 갖는 분포
+
+## 예제
+
+- 총 2000건의 보험에 대해 청구할 확률이 0.0001
+- 평균 = 2000 
+
+### 1. 보험 청구가 한 번도 없을 확률
+
+![image](https://user-images.githubusercontent.com/80622859/230542648-d3c99a3a-d7af-4ef8-a2e5-04d6c8485a26.png)
+
