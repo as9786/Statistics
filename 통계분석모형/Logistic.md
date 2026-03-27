@@ -15,7 +15,7 @@
 
 ## Binomial distribution(이항 분포)
 - Bernoulli distribution
-- $p_x(x) = \begin{pmatrix}n\\x\end{pmatrix}p^x(1-p)^{n-x}$. p->모수, n : # of Bermoulli trials, x = # of success
+- $p_x(x) = \begin{pmatrix}n\\x\end{pmatrix}p^x(1-p)^{n-x}$ p->모수, n : # of Bermoulli trials, x = # of success
 
 ## Bernoulli distribution
 - A random variable that takes value 1 in case of success and 0 in case of failure
