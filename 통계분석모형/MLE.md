@@ -22,5 +22,13 @@
 - PDF : $f(x;p)=p^x(1-p)^{1-x}\ for\ x \in {0,1}$
 - E[X] = p, V[X] = p(1-p)
 
+## 속성
+
+### 일치성(Consistency) 
+- $\lim_{x \rightarrow a} \hat \theta_k = \theta_k$
+- $E(\hat \theta_k) = \theta_k$ => Bias x
+
+### Approximate normality
+- $\theta$는 표본이 커질수록 정규 분포에 근사
 
 
