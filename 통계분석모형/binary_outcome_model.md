@@ -1,2 +1,6 @@
 - 최대 가능도 추정을 사용하기 위해서는 가능도 함수를 먼저 계산해야 함
+- $\prod_{i=1}^{N}P(Y_i=y_i)$
+- $P(Y_i=y_i)$는 $Y_i$에 대한 확률분포의 PDF
+- 종속변수가 이진 값을 갖을 경우, Bernoulli distribution을 갖음
+- Bermoulli Distribution CDF : $f(y;p)=p^y(1-p)^{1-y}\ for\ y\in{0,1}$
 - 
