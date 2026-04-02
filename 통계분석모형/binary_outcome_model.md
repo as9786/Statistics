@@ -4,7 +4,7 @@
 - $P(Y_i=y_i)$는 $Y_i$에 대한 확률분포의 PDF
 - 종속변수가 이진 값을 갖을 경우, Bernoulli distribution을 갖음
 - Bermoulli Distribution CDF : $f(y;p)=p^y(1-p)^{1-y}\ for\ y\in{0,1}$
-- Log-Likelihood : $l(p)=logL(p)=\sum_{i=1}^{n}\left\{y_ilogp+(1-y_i)log(1-p)\right\$
+- Log-Likelihood : $l(p)=logL(p)=\sum_{i=1}^{n}\left{y_ilogp+(1-y_i)log(1-p)\right$
 - $p=P(Y_i=1)$
 - p를 X의 함수로 표현
 - p를 X의 함수로 표현할 때 어떠한 함수를 사용하는지에 따라 logit model or probit model로 구분
