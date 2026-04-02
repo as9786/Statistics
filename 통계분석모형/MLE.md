@@ -31,4 +31,21 @@
 ### Approximate normality
 - $\theta$는 표본이 커질수록 정규 분포에 근사
 
+# 가능도 최대화
+- 두 가지 방법
+  - Newton-Raphson algorithm -> 단일 모형
+  - EM(Expectation-Maximization) algorithm -> 혼합 모형
+ - 기계 학습에서는 경사하강법 사용
+
+## Newton-Raphson algorithm
+- 근을 찾는 방법
+- 순차적으로 x의 값을 최산화
+- 임의 x 값에 대한 접선을 구하고, 그 접선의 x 절편을 다음 x 값으로 사용
+
+# Regularity conditions
+- Y는 독립항등분포(iid)
+- 서로 다른 모수 값은 서로 다른 분포를 가짐
+- 모수를 보면 모형이 결정
+- 동일한 정의역을 가짐 
+
 
