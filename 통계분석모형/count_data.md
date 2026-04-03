@@ -1,0 +1,16 @@
+# Cound data
+- 비선형 -> 최대 가능도 추정
+- 어떠한 사건이 특정한 시간 동안 발생하는 횟수
+- 음수일 수 없음 
+- 하루동안 발생하는 범죄 수
+- Poisson distribution -> 평균 = 분산
+- 조건부 확률이 아닌 조건부 기대값에 초점
+- Poisson distribution : 정해진 시간 안에 발생하는 사건의 수를 값으로 갖는 분포
+- 음이항 분포 -> 매 시행에서 성공률이 p인 bernouill experiment를 r번 성공할 때까지 독립적으로 반복 시행한 횟수에 대한 분포
+
+# Poisson regression
+- $P(Y=y)=f(y)=e^{-\mu}\frac{\mu^y}{y!},y=0,1,2,...,\mu > 0$
+- $E(Y)=Var(Y)=\mu$
+
+## 한계
+- 분산이 평균보다 클 수 있음
