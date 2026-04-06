@@ -11,9 +11,13 @@
 # Poisson regression
 - $P(Y=y)=f(y)=e^{-\mu}\frac{\mu^y}{y!},y=0,1,2,...,\mu > 0$
 - $E(Y)=Var(Y)=\mu$
+- 일반화 선형 모형(Generalized Linear Model, GLM)
+- 독립변수가 한 단위 증가하게 되면 추정치만큼 승법적으로 변화
+- 최대 가능도 추정을 통해 모수를 추정
+- Chi-Square test를 통해 모형 유의성 검정
 
 ## 한계
-- 분산이 평균보다 클 수 있음
+- 분산이 평균보다 클 수 있음(과대산포, Overdispersion)
 
 # 음이항 회귀(Negative Binomial regression, NB)
 - $v \sim Gamma(1,\alpha)$
