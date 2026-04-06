@@ -16,7 +16,7 @@
 - 분산이 평균보다 클 수 있음
 
 # 음이항 회귀(Negative Binomial regression, NB)
-- $v~Gamma(1,\alpha)$
+- $v \sim Gamma(1,\alpha)$
   - 평균 : 1, 분산 : $\alpha$
 - y는 Possion-Gamma mixture distribution을 가짐. NB distribution은 $NB(\mu, \alpha)$로 표시
 - 
