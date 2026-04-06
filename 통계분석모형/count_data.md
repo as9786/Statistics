@@ -19,4 +19,12 @@
 - $v \sim Gamma(1,\alpha)$
   - 평균 : 1, 분산 : $\alpha$
 - y는 Possion-Gamma mixture distribution을 가짐. NB distribution은 $NB(\mu, \alpha)$로 표시
-- 
+- $Pr(Y=y|\mu, \alpha)=\frac{\Gamma(\alpha^{-1} +y)}{\Gamma(\alpha^{-1})\Gamma(y+1)}(\frac{\alpha^{-1}}{\alpha^{-1}+\mu})^{\alpha^{-1}}(\frac{\mu}{\mu+\alpha^{-1}})^y$
+- Poisson model보다 더 일반적(음이항 분포는 확장판)
+- Poisson distribution에서는 평균=분산
+- 그러나 real data에서는 분산 > 평균인 경우 존재(과산포)
+- 음이항 분포는 위 과산포를 반영
+- $Var(x) = \mu + \alpha \mu^2$
+  - $\alpha=0$ : Poisson distribution
+  - $\alpha > 0$ : 과산포 반영
+
