@@ -19,4 +19,11 @@
 - $P(\theta|D) = \frac{P(D|\theta)P(\theta)}{P(D)}$
 - $\theta$ : 우리가 알고자하는 모수, D : Data(우리가 관찰한 표본), $P(D|\theta)$ : data의 확률=가능도, $P(\theta)$ : 사전확률분포(Prior), 사전믿음, 선행연구 또는 상식 선에서 결정, P(D) : 증거(evidence)
 - $P(D)=\sum_{\theta^k}P(D|\theta^k)P(\theta^*)$ 또는 $P(D)=\int_{\theta^k} P(D|\theta^k)P(\theta^k) \text{d}\theta^k$
-- 
+
+## 과정
+- 문제에 대한 변수 혹은 data 결정
+- 수학적 모형 결정
+- 모수의 사전 분포 결정
+- Bayesian inference를 통해 사후 분포 도출
+- 사후 분포가 data를 잘 설명하는지 파악
+
