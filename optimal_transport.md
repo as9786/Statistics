@@ -19,4 +19,15 @@
 
 ### 3. Wasserstein distance
 - 확률 분포를 옮기는데 드는 최소 비용 측정
-- 연속 ㄷ
+- 연속 변수 또는 영상과 같은 공간적 분포에서 사용 가능
+- $min_{\gamma \prod(P,Q)} \int c(x,y)d \gamma (x,y)$
+
+### 4. Total Variation Distance(TVD)
+- 두 확률 분포 간의 최대 차이 측정
+- 두 분포가 얼마나 겹치는지 판단. 일치하면 0
+- $d_{TV} (P,Q) = \frac{1}{2} \int |P(x)-Q(x)|dx$
+
+### 5. Hellinger distance
+- 두 분포 간 유사도 측정. 대칭
+- $H(P,Q)=\frac{1}{\sqrt{2}}(\int (\sqrt{P(x)} - \sqrt{Q(x)})^2dx)^{1/2}$
+
