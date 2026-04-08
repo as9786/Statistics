@@ -27,3 +27,24 @@
 - Bayesian inference를 통해 사후 분포 도출
 - 사후 분포가 data를 잘 설명하는지 파악
 
+# Bayes' rule
+- 데이터를 보기 전 우리가 믿고 있던 정도(prior)가, 데이터를 본 이후 어떻게 바뀌는지(posteriors)를 연결하는 수학적 관계
+- 모수값의 확률을 관찰한 data를 토대로 새롭게 최신화 하는 것
+- 구름 낀 날씨일 확률을 예측하고자 할 때
+  - 사전 믿음 : 평소 흐린 날씨일 확률 : p(cloudy)
+  - Observed data
+    - 비 : p(cloudy|rain)
+    - Sunglasses : p(cloudy|sunglasses)
+- $P(\theta|y)=\frac{P(y|\theta)P(\theta)}{P(y)}=\frac{P(y|\theta)P(\theta)}{\sum_{\theta} P(y,\theta)}=\frac{P(y|\theta)P(\theta)}{\sum_{\theta} P(y|\theta)P(\theta)}$
+- $P(\theta|y)$ : 사후 분포, $P(y|\theta)$ : 가능도, $P(\theta)$ : 사전 분포, P(y) : 증거
+- 사전 분포 : 모수에 대한 사전 믿음
+- 증거 : 모든 가능한 파라미터를 고려했을 때, 전체적으로 데이터가 나타날 확률
+- 사후 분포 : 목표
+- 가능도와 사전 분포를 통해 사후 분포의 형태를 추측하는 것
+
+# 어려움
+- 증거를 구하는 것이 어려움
+- 상대적으로 간단한 가능도 함수를 사용하고, 그에 켤레 사전 분포를 사용
+- Variational approximation(변분 추론)
+- Grid approximation
+- Sampling simulation : MCMC(Metropolis Random Walk, Metropolis-Hastings, Gibbs sampling etc)
